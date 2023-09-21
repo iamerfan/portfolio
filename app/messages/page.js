@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 export default async function Messages() {
   const data = await getMessages();
   return (
