@@ -1,0 +1,47 @@
+.header {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -20px;
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      .link {
+        background-color: transparent;
+        border: none;
+        font-size: 0.9rem;
+        font-weight: bold;
+        -webkit-font-smoothing: antialiased;
+        color: var(--black);
+      }
+    }
+  }
+  .left {
+    button {
+      background-color: transparent;
+      border: none;
+      color: var(--black);
+      font-size: 1.2rem;
+      transition: 0.2s ease-in-out;
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    justify-content: center;
+    padding-right: 1.5rem !important;
+    .links {
+      gap: 2rem !important;
+    }
+  }
+}

@@ -1,3 +1,4 @@
+import Homepage from "@/components/homepage";
 export default function Home() {
-  return <div className="main">Hello World!</div>;
+  return <Homepage />;
 }
