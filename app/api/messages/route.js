@@ -22,7 +22,7 @@ export async function POST(req, res) {
   return NextResponse.json(result);
 }
 
-export async function DELETE(req, res) {
+export async function DELETE() {
   const result = await kv.del("messages");
   return NextResponse.json(result);
 }

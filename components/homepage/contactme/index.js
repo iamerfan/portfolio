@@ -9,6 +9,7 @@ import {
   BiLogoWhatsapp,
 } from "react-icons/bi";
 import Form from "./form";
+import Link from "next/link";
 
 export default function ContactMe() {
   return (
@@ -23,25 +24,31 @@ export default function ContactMe() {
       <h2>راه های ارتباطی</h2>
 
       <div className={styles.SocialMedias}>
-        <div className={styles.link}>
+        <Link href={"https://t.me/I_am_erfan"} className={styles.link}>
           <BiLogoTelegram />
-        </div>
-        <div className={styles.link}>
+        </Link>
+        <Link href={"https://wa.me/00989399486478"} className={styles.link}>
           <BiLogoWhatsapp />
-        </div>
-        <div className={styles.link}>
+        </Link>
+        <Link href={"https://github.com/iamerfan"} className={styles.link}>
           <BiLogoGithub />
-        </div>
-        <div className={styles.link}>
+        </Link>
+        <Link
+          href={"https://www.instagram.com/i.am.erfan/"}
+          className={styles.link}
+        >
           <BiLogoInstagram />
-        </div>
-        <div className={styles.link}>
+        </Link>
+        <Link href={"https://twitter.com/erfan_hz1"} className={styles.link}>
           <BiLogoTwitter />
-        </div>
-        <div className={styles.link}>
+        </Link>
+        <Link
+          href={"https://www.linkedin.com/in/erfan-hosseini-83aa45290/"}
+          className={styles.link}
+        >
           <BiLogoLinkedin />
           <div className={styles.whitediv} />
-        </div>
+        </Link>
       </div>
     </div>
   );
