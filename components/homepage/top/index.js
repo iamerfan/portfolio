@@ -11,11 +11,11 @@ import Hello from "./hello";
 export default function Top() {
   return (
     <div className={styles.top}>
-      <Image src={"/bg1.webp"} alt="" fill className={styles.bg} />
+      <Image src={"/bg1.webp"} priority alt="" fill className={styles.bg} />
       <div className={styles.card}>
         <div className={styles.divider} />
         <div className={styles.img}>
-          <Image src={"/erfan.webp"} alt="" fill />
+          <Image src={"/erfan.webp"} priority alt="" fill />
         </div>
 
         <div className={styles.titles}>
