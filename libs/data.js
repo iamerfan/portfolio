@@ -21,7 +21,7 @@ export const projects = [
   {
     src: "/project1.webp",
     title: "فروشگاه میراث",
-    link: "https://miras-iamerfan.vercel.app",
+    link: "https://miras.iamerfan.ir",
     code: "https://github.com/iamerfan/miras",
     sections: [
       {
@@ -51,7 +51,7 @@ export const projects = [
     reverse: true,
     src: "/project2.webp",
     title: "پنل مدیریت ورزشکاران",
-    link: "https://sport-app-iamerfan.vercel.app",
+    link: "https://sport.iamerfan.ir",
     code: "https://github.com/iamerfan/sport-app",
     sections: [
       {

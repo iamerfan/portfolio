@@ -2,7 +2,7 @@ import local from "next/font/local";
 import "@/assets/globals.scss";
 import Providers from "../components/layout/providers";
 const Yekan = local({
-  src: "../assets/fonts/BYekan.ttf",
+  src: "../assets/fonts/YekanBakh-Regular.ttf",
 });
 
 export const metadata = {
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning>
-      <body className={`${Yekan.className} `}>
+      <body className={`${Yekan.className}  `}>
         <Providers>{children}</Providers>
       </body>
     </html>
