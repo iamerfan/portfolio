@@ -22,7 +22,7 @@ export const projects = [
     src: "/project1.webp",
     title: "فروشگاه میراث",
     link: "https://miras.iamerfan.ir",
-    code: "https://github.com/iamerfan/miras",
+    code: "https://github.com/iamerfan/miras-js",
     sections: [
       {
         title: "موضوع",
@@ -80,8 +80,8 @@ export const projects = [
     vpn: true,
     src: "/project3.webp",
     title: "وب اپلیکیشن فیلم و سریال",
-    link: "https://movieapp-iamerfan.vercel.app",
-    code: "https://github.com/iamerfan/movie-nextjs",
+    link: "https://movie.iamerfan.ir",
+    code: "https://github.com/iamerfan/movieapp",
 
     sections: [
       {
